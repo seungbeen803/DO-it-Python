@@ -15,4 +15,9 @@ class FourCal:
         result = self.first + self.second
         return result
 
-a = FourCal(1,2)
+# 괄호 안에 부모의 클래스를 넣어 상속 받은 자식 클래스 생성
+class MoreFourCal(FourCal):
+    pass
+
+a = MoreFourCal(4, 2)
+print(a.add())
