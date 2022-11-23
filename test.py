@@ -14,3 +14,20 @@ e()
 
 from game.sound import *
 echo.echo_test()
+
+print()
+
+import game.graphic.render
+game.graphic.render.render_test()
+
+from game.graphic import render
+render.render_test()
+
+from game.graphic.render import render_test
+render_test()
+
+from game.graphic.render import render_test as r
+r()
+
+from game.graphic import *
+render.render_test()
